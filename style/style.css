@@ -1,0 +1,199 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+.header-block {
+  display: flex;
+  justify-content: space-between;
+  background: #1B1B1B;
+  border-radius: 0px 0px 14px 14px;
+  padding: 25px 30px;
+}
+.header-block-catalog-ul {
+  list-style: none;
+  display: flex;
+  gap: 37px;
+}
+.header-block-catalog-ul-li a {
+  text-decoration: none;
+  font-size: 19px;
+  color: #9C9C9C;
+  font-family: "Montserrat";
+}
+.header-block-link {
+  display: flex;
+  gap: 45px;
+}
+.header-block-link a {
+  color: #9c9c9c;
+}
+.header-block-link i {
+  font-size: 17px;
+}
+
+.header-block-catalog-ul-li-link:hover {
+  border-bottom: 3px solid #008000;
+}
+
+#link:hover {
+  color: #008000;
+  font-size: 25px;
+}
+
+.section {
+  margin-top: 100px;
+}
+.section-block {
+  display: flex;
+  justify-content: space-between;
+}
+.section-block-left {
+  margin-left: 35px;
+}
+.section-block-left h1 {
+  margin: 5px;
+  color: #fff;
+  font-size: 36px;
+  font-family: "Montserrat";
+}
+.section-block-left .box {
+  margin: 15px;
+  width: 395px;
+}
+.section-block-left .box p {
+  color: #9c9c9c;
+  font-size: 17px;
+  font-family: "Montserrat";
+}
+.section-block-left button {
+  margin: 15px;
+  border-radius: 17px;
+  width: 307px;
+  height: 50px;
+  background: green;
+  font-family: "Montserrat";
+  font-size: 17px;
+}
+.section-block-right img {
+  width: 200px;
+  height: 300px;
+  border-radius: 50px;
+}
+
+.btn:hover {
+  width: 240px;
+  height: 80px;
+  border: 3px solid #9c9c9c;
+  text-align: center;
+  background-color: red;
+  color: #fff;
+}
+
+.footer-block {
+  padding: 35px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-block-chatGPT {
+  width: 160px;
+  padding: 7px;
+  display: flex;
+  align-items: center;
+  border: 1px solid #1B1B1B;
+  border-radius: 16px;
+  gap: 25px;
+}
+.footer-block-chatGPT img {
+  width: 50px;
+  height: 44px;
+  background: none;
+  border-radius: 50%;
+}
+.footer-block-chatGPT p {
+  color: #9c9c9c;
+}
+.footer-block-awesome {
+  width: 160px;
+  padding: 7px;
+  display: flex;
+  align-items: center;
+  border: 1px solid #1B1B1B;
+  border-radius: 16px;
+  gap: 25px;
+}
+.footer-block-awesome i {
+  font-size: 17px;
+  color: #fff;
+}
+.footer-block-awesome p {
+  color: #9c9c9c;
+}
+.footer-block-git {
+  width: 160px;
+  padding: 7px;
+  display: flex;
+  align-items: center;
+  border: 1px solid #1B1B1B;
+  border-radius: 16px;
+  gap: 25px;
+}
+.footer-block-git i {
+  font-size: 24px;
+  color: #fff;
+}
+.footer-block-git p {
+  color: #9c9c9c;
+}
+.footer-block-figma {
+  width: 160px;
+  padding: 7px;
+  display: flex;
+  align-items: center;
+  border: 1px solid #1B1B1B;
+  border-radius: 16px;
+  gap: 25px;
+}
+.footer-block-figma i {
+  font-size: 24px;
+  color: #fff;
+}
+.footer-block-figma p {
+  color: #9c9c9c;
+}
+.footer-block-w3 {
+  width: 180px;
+  padding: 7px;
+  display: flex;
+  align-items: center;
+  border: 1px solid #1B1B1B;
+  border-radius: 16px;
+  gap: 25px;
+}
+.footer-block-w3 img {
+  width: 50px;
+  height: auto;
+  background: none;
+  border-radius: 50%;
+}
+.footer-block-w3 p {
+  color: #9c9c9c;
+}
+
+.box5:hover {
+  background-color: violet;
+}
+.box5:hover p {
+  color: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 88%;
+  margin: 0 auto;
+}
+
+body {
+  background-color: #000;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,59 @@
+.section {
+    margin-top: 100px;
+
+    &-block {
+        display: flex;
+        justify-content: space-between;
+        // gap: 600px;
+
+        &-left {
+            margin-left: 35px;
+
+            h1 {
+                margin: 5px;
+                color: #fff;
+                font-size: 36px;
+                font-family: 'Montserrat';
+            }
+
+            .box {
+                margin: 15px;
+                width: 395px;
+
+                p {
+                    color: #9c9c9c;
+                    font-size: 17px;
+                    font-family: 'Montserrat';
+                }
+            }
+
+            button {
+                margin: 15px;
+                border-radius: 17px;
+                width: 307px;
+                height: 50px;
+                background: green;
+                font-family: 'Montserrat';
+                font-size: 17px;
+            }
+
+        }
+
+        &-right {
+            img {
+                width: 200px;
+                height: 300px;
+                border-radius: 50px;
+            }
+        }
+    }
+}
+
+.btn:hover {
+    width: 240px;
+    height: 80px;
+    border: 3px solid #9c9c9c;
+    text-align: center;
+    background-color: red;
+    color: #fff;
+}

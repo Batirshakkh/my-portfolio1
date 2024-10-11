@@ -1,0 +1,98 @@
+.footer{
+    &-block{
+        padding: 35px;
+        display: flex;
+        justify-content: space-between;
+        &-chatGPT{
+            width: 160px;
+            padding: 7px;
+            display: flex;
+            align-items: center;
+            border: 1px solid #1B1B1B;
+            border-radius: 16px;
+            gap: 25px;
+            img{
+                width: 50px;
+                height: 44px;
+                background: none;
+                border-radius: 50%;
+            }
+            p{
+                color: #9c9c9c;
+            }
+
+        }
+        &-awesome{
+            width: 160px;
+            padding: 7px;
+            display: flex;
+            align-items: center;
+            border: 1px solid #1B1B1B;
+            border-radius: 16px;
+            gap: 25px;
+            i{
+                font-size: 17px;
+                color: #fff;
+            }
+            p{
+                color: #9c9c9c;
+            }
+        }
+        &-git{
+            width: 160px;
+            padding: 7px;
+            display: flex;
+            align-items: center;
+            border: 1px solid #1B1B1B;
+            border-radius: 16px;
+            gap: 25px;
+            i{
+                font-size: 24px;
+                color: #fff;
+            }
+            p{
+                color: #9c9c9c;
+            }
+        }
+        &-figma{
+            width: 160px;
+            padding: 7px;
+            display: flex;
+            align-items: center;
+            border: 1px solid #1B1B1B;
+            border-radius: 16px;
+            gap: 25px;
+            i{
+                font-size: 24px;
+                color: #fff;
+            }
+            p{
+                color: #9c9c9c;
+            }
+        }
+        &-w3{
+            width: 180px;
+            padding: 7px;
+            display: flex;
+            align-items: center;
+            border: 1px solid #1B1B1B;
+            border-radius: 16px;
+            gap: 25px;
+            img{
+                width: 50px;
+                height: auto;
+                background: none;
+                border-radius: 50%;
+            }
+            p{
+                color: #9c9c9c;
+            }
+        }
+    }
+}
+.box5:hover{
+background-color: violet;
+p{
+    color: #fff;
+}
+}
